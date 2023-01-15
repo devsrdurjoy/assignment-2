@@ -98,8 +98,19 @@ img{
     gap: 10px;
 }
 .feature-info{
-    width: 50%;
     padding-left: 50px;
+}
+.feature-info span{
+    width: 50%;
+    font-size: 45px;
+    font-weight: 500;
+    color: #727272;
+
+}
+.feature-info strong{
+    font-size: 45px;
+    font-weight: 700;
+    color: #FF900E;
 }
 .feature-image{
     width: 50%;
@@ -108,7 +119,7 @@ img{
 .feature-info-2{
    width: 50%;
 }
-.feature-info-2 span{
+.feature-info-2{
     font-size: 45px;
     font-weight: 500;
     color: #727272;
@@ -118,11 +129,11 @@ img{
     font-weight: 700;
     color: #131313;
 }
-.feature-info-2 strong{
+/* .feature-info-2 strong{
     font-size: 45px;
     font-weight: 700;
     color: #FF900E;
-}
+} */
 .feature-info-2 p{
     font-size: 16px;
     font-weight: 400;
